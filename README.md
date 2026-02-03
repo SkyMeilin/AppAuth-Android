@@ -27,6 +27,15 @@ clients when custom URI scheme redirects are used. The library is friendly to
 other extensions (standard or otherwise) with the ability to handle additional
 parameters in all protocol requests and responses.
 
+## Beispielhafte Anwendungsfälle
+
+* **Agentengesteuerte Bezahlvorgänge:** Anstatt dass ein Agent eine Website
+  durchläuft, kann er ein deterministisches und programmatisches
+  Kauferlebnis haben.
+* **Sichere Übermittlung von Zahlungsdaten:** Agenten können mit Verkäufern
+  und deren Zahlungsdienstleistern interagieren, um Zahlungsdaten
+  bereitzustellen und weiterzuleiten.
+
 A talk providing an overview of using the library for enterprise single sign-on (produced by
 Google) can be found here:
 [Enterprise SSO with Chrome Custom Tabs](https://www.youtube.com/watch?v=DdQTXrk6YTk).
