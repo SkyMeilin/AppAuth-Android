@@ -28,4 +28,7 @@
     <string name="access_token_expired">Access token has expired</string>
     <string name="auth_settings">Authorization settings in use:</string>
     <string name="use_pending_intents">Use PendingIntent\'s for completion</string>
+    <string name="connect_tools">Connect your tools</string>
+    <string name="connect_tools_linear_logo_content_description">Linear logo icon</string>
+    <string name="connect_tools_add_icon_content_description">Add integration icon</string>
 </resources>

@@ -121,6 +121,8 @@ public final class LoginActivity extends AppCompatActivity {
         findViewById(R.id.retry).setOnClickListener((View view) ->
                 mExecutor.submit(this::initializeAppAuth));
         findViewById(R.id.start_auth).setOnClickListener((View view) -> startAuth());
+        findViewById(R.id.connect_tools).setOnClickListener((View view) ->
+                startActivity(new Intent(this, ConnectToolsActivity.class)));
 
         ((EditText)findViewById(R.id.login_hint_value)).addTextChangedListener(
                 new LoginHintChangeHandler());

@@ -37,6 +37,14 @@
                 android:text="@string/intro_header"
                 style="@style/Base.TextAppearance.AppCompat.Title" />
 
+            <Button
+                android:id="@+id/connect_tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/connect_tools" />
+
             <!--
             displayed while the discovery document is loaded, and dynamic client registration is
             being negotiated
