@@ -35,6 +35,12 @@
         </activity>
 
         <activity
+                android:name=".ConnectToolsActivity"
+                android:label="@string/connect_tools"
+                android:theme="@style/AppTheme"
+                android:exported="false" />
+
+        <activity
                 android:name=".TokenActivity"
                 android:theme="@style/AppTheme"
                 android:windowSoftInputMode="stateHidden" >
